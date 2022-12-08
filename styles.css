@@ -5,15 +5,15 @@ body{
 }
 
 .first-container{
-    background-color: rgb(255, 150, 150);
-    height: 1000px;
+    background-color: rgb(16, 15, 54);
+    height: 800px;
     padding: 50px;
 }
 
 .navbar{
     display: flex;
-    align-items: center;
-    background-color: rgb(182, 178, 178);
+    align-items: center;  
+    background-color: rgb(197, 196, 196);
     height: 60px;
     font-size: 20px;
     border-radius: 15px;
@@ -22,12 +22,12 @@ body{
 .navbar ul{
     display: flex;
     list-style: none;
-    gap: 30px;
+    gap: 40px;
     font-weight: bold;
 }
 
 .right-side{
-    margin-left: 700px;
+    margin-left: 600px;
 }
 
 .navbar a{
@@ -39,3 +39,45 @@ body{
     height: 60px;
     width: 150px;
 }
+
+.title{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 200px;
+    color: white;
+    line-height: 30px;
+}
+
+.title h1{
+    font-size: 70px;
+    font-weight: 900;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title h2{
+    font-size: 40px;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title h3{
+    font-size: 24px;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+.title a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 35px;
+    background-color: rgb(204, 134, 3);
+    padding: 12px;
+    border-radius: 15px;
+    height: 80px;
+    width: 200px;
+}
+
