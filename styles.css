@@ -10,7 +10,7 @@ body{
     padding: 50px;
 }
 
-.navbar{
+.navbar {
     display: flex;
     align-items: center;  
     background-color: rgb(197, 196, 196);
@@ -96,7 +96,130 @@ body{
 .platforms a{
     text-decoration: none;
     color: grey;
-    
+}
+
+.platforms a:hover{
+    color: white;
+}
+
+.second-container,
+.third-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(187, 239, 255);
+    height: 700px;
+    gap: 100px;
+}
+
+.second-container-text,
+.third-container-text{
+    display: flex;
+    flex-direction: column;
+    flex-basis: 600px;
+}
+
+.second-container-text h1,
+.third-container-text h1{
+    font-size: 70px;
+}
+
+.second-container-text p,
+.third-container-text p{
+    font-size: 20px;
+}
+
+.second-container-image,
+.third-container-image{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    height: 450px;
+    width: 900px;
+}
+
+.third-container{
+    flex-direction: row-reverse;
+    background-color: rgb(16, 15, 54);
+    color: white;
+}
+
+.fourth-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+
+.news-container{
+    display: flex;
+    justify-content: center;
+    gap: 50px;
+}
+
+.news-container a{
+    display: flex;
+    flex-direction: column;
+    text-decoration: none;
+    color: black;
+    border: 5px solid black;
+    flex-basis: 300px;
+    min-height: 400px;
+}
+
+.news-item{
+    display: flex;
+    flex-direction: column;
+}
+
+.news-item img{
+    background-color: blue;
+    height: 175px;
+}
+
+.news-item p{
+    padding: 10px;
+    font-size: 18px;
+}
+
+.news-button{
+    background-color: rgb(0, 71, 71);
+    border: none;
+    cursor: pointer;
+    color: white;
+    padding: 25px;
+    font-size: 20px;
+}
+
+.fifth-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: grey;
+    font-size: 25px;
+    height: 600px;
+}
+
+.fifth-container h1{
+    width: 800px;
+    text-align: center;
+    color: white;
 }
 
 
+.fifth-container a{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(204, 134, 3);
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    height: 60px;
+    width: 150px;
+    margin-bottom: 75px;
+}
