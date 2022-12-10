@@ -6,7 +6,7 @@ body{
 
 .first-container{
     background-color: rgb(16, 15, 54);
-    height: 800px;
+    height: 900px;
     padding: 50px;
 }
 
@@ -80,4 +80,23 @@ body{
     height: 80px;
     width: 200px;
 }
+
+.title-footer{
+    display: flex;
+    justify-content: center;
+    margin-top: 170px;
+}
+
+.platforms{
+    display: flex;
+    font-size: 25px;
+    gap: 70px;
+}
+
+.platforms a{
+    text-decoration: none;
+    color: grey;
+    
+}
+
 
